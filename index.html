@@ -20,46 +20,42 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
+            <h1>Rock , Paper, Scissors </h1>
+            <h2> Instructions</h2>
+            <p> You (player) are to make a pick from the pictures below either : <strong>Rock</strong>,
+                <strong>Paper</strong>, or <strong>Scissors</strong>. Your pick will
+                be matched against the CPU player and a winner will be determined.
+                The rules are as follows:
+            <ul>
+                <li>-Paper beats Rock</li>
+                <li>-Rock beats Scissors</li>
+                <li>-Scissors beats Paper</li>
+                <li>-Draw if both players select same option</li>
+            </ul>
+            </p>
+        </section>
+        <section>
+            <label>
+                <input type="radio" name="rcp" value="paper"> <img
+                    src="https://lh3.googleusercontent.com/proxy/ZCspNnjIfWYdRZffROz7S_hExriSVAh4jRGD2E4t48me0NnbCYp-NeSda9NwXvwsJcghi1mhusErIgsJ8U6gdXVLw3kgv55C5tgRv8ST8vYGxtJqog"
+                    alt="Rock" width="200" height="200">
+            </label>
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
+            <label>
+                <input type="radio" name="rcp" value="paper"> <img
+                    src="https://studio.code.org/v3/assets/A2SRu-eyjeKId-hZqDedVlscWzS_u_g01W2T5Ei2Sro/21mag-abstractimages-slide-2T4N-jumbo.jpg"
+                    alt="Paper" width="200" height="200">
+            </label>
+
+            <label>
+                <input type="radio" name="rcp" value="scissors"> <img
+                    src="https://lh3.googleusercontent.com/proxy/nXCxiSOsTbamwF1Bai4YjySQJ7nu7A87zyk6mpb7PslCo1x493tbedBSu5ZHtfz9F5OgVwRTqs4Ude-J3gUDPQ02cIzV6AOGEy7bTXZSNaH_o7A3Zg"
+                    alt="scissors" width="200" height="200">
+            </label>
+            <button id="playButton">Play</button>
+            <div id="wins"> - </div>
+            <div id="losses"> - </div>
+            <div id="draws"> - </div>
 
         </section>
     </main>
