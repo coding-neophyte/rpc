@@ -2,17 +2,17 @@ export function didUserWin(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         return 'draw';
     } if (playerChoice === 'rock' && computerChoice === 'scissors') {
-        return 'player wins';
+        return 'win';
     } if (playerChoice === 'paper' && computerChoice === 'rock') {
-        return 'player wins';
+        return 'win';
     } if (playerChoice === 'scissors' && computerChoice === 'paper') {
-        return 'player wins';
+        return 'win';
     } if (computerChoice === 'rock' && playerChoice === 'scissors') {
-        return 'player loses';
+        return 'lose';
     } if (computerChoice === 'paper' && playerChoice === 'rock') {
-        return 'player loses';
+        return 'lose';
     } if (computerChoice === 'scissors' && playerChoice === 'paper') {
-        return 'player loses';
+        return 'lose';
     }
 
 }
