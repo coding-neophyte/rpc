@@ -19,14 +19,12 @@ body {
     --footer-height: 25px;
 
     font-family: 'Titillium Web', sans-serif;
-    background-color:rgb(208,184,172)
-
-    ;
+    background-color:rgb(208,184,172);
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
@@ -114,38 +112,42 @@ footer {
 
   }
 
-  input:checked{
-      transform: scale(1)
-  };
-
-  input{
-      display: none;
-  }
-
-  input:checked + img {
+input:checked + img {
       border: solid 5px red;
-  }
+      transform: scale(1.1)
+}
 
-  h1{
+button:hover {
+      cursor: pointer;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+h1 {
       font-size: 50px;
       font-weight: bold;
       color: rgb(136,85,72);
+}
 
-  }
-
-  #playButton{
+#playButton{
       height: 40px;
       width: 60px;
       border-radius: 10px;
-      margin-left: 10px;
+}
 
-  }
-
-  #reset{
+#reset{
     height: 40px;
     width: 60px;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
-  }
+.results-section {
+    font-weight: 700;
+}

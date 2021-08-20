@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Rock , Paper, Scissors</title>
 </head>
-
 <body>
     <header>
         <div class="gutter-right logo">
@@ -33,8 +35,8 @@
                 <li>-Draw if both players select same option</li>
             </ul>
             </p>
-        </section>
-        <section>
+        </section>        
+        <section class="main-game">
             <label>
                 <input type="radio" name="rcp" value="rock"> <img src="./assets/rock.jpeg" alt="Rock" width="150"
                     height="150">
@@ -49,7 +51,10 @@
                 <input type="radio" name="rcp" value="scissors"> <img src="./assets/scissors.jpeg" alt="scissors"
                     width="150" height="150">
             </label>
-            <button id="playButton">Play</button> <button id="reset"> Reset </button>
+            <button id="playButton">Play</button> 
+        </section>
+        <section class="results-section">
+            <button id="reset"> Reset </button>
             Result
             <div id="throw-result"> - </div>
             Total Wins
@@ -58,15 +63,11 @@
             <div id="losses"> - </div>
             Total Draws
             <div id="draws"> - </div>
-
-
         </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>
-
     <script type="module" src="./app.js"></script>
 </body>
-
 </html>

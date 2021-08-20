@@ -34,7 +34,6 @@ playNow.addEventListener('click', () => {
     winDisplay.textContent = totalWins;
 });
 
-
 resetButton.addEventListener('click', () => {
     location.reload();
 });
