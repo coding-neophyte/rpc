@@ -4,9 +4,7 @@ export function getRandomThrow() {
         return 'rock';
     } else if (randomNumber === 2) {
         return 'paper';
-
     } else {
         return 'scissors';
     }
-
 }

@@ -14,5 +14,4 @@ export function didUserWin(playerChoice, computerChoice) {
     } if (computerChoice === 'scissors' && playerChoice === 'paper') {
         return 'lose';
     }
-
 }
